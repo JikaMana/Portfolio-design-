@@ -39,6 +39,11 @@
       property="og:description"
       content="A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+
     <link rel="stylesheet" href="css/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -118,13 +123,36 @@
         <h1 class="heading-primary">Hey, Yahaya Abdullahi Mana</h1>
         <div class="home-hero__info">
           <p class="text-primary">
-            A Passionate Front-End Developer specializing in crafting visually
-            appealing and user-friendly websites and applications, striving to
-            deliver impactful and innovative solutions.
+            A Front-End Developer specializing in crafting visually appealing
+            and user-friendly websites and applications, striving to deliver
+            impactful and innovative solutions.
           </p>
         </div>
         <div class="home-hero__cta">
           <a href="#projects" class="btn btn--bg">Projects</a>
+        </div>
+        <div class="skills skills--icons">
+          <!-- Frontend -->
+          <i class="devicon-html5-plain colored" title="HTML"></i>
+          <i class="devicon-css3-plain colored" title="CSS"></i>
+          <i class="devicon-javascript-plain colored" title="JavaScript"></i>
+          <!-- <i class="devicon-typescript-plain colored" title="TypeScript"></i> -->
+
+          <i class="devicon-react-original colored" title="React.js"></i>
+          <i class="devicon-android-plain colored" title="React Native"></i>
+          <i class="devicon-apple-original colored" title="React Native"></i>
+          <i class="devicon-tailwindcss-plain colored" title="Tailwind CSS"></i>
+          <i class="devicon-astro-original colored" title="Astro.js"></i>
+
+          <!-- Backend -->
+          <i class="devicon-nodejs-plain colored" title="Node.js"></i>
+          <i class="devicon-express-original colored" title="Express.js"></i>
+          <i class="devicon-mongodb-plain colored" title="MongoDB"></i>
+
+          <!-- Tools -->
+          <i class="devicon-firebase-plain colored" title="Firebase"></i>
+          <i class="devicon-appwrite-plain colored" title="Appwrite"></i>
+          <i class="devicon-git-plain colored" title="GIT"></i>
         </div>
       </div>
       <div class="home-hero__socials">
@@ -201,6 +229,7 @@
           </a>
         </div>
       </div>
+
       <div class="home-hero__mouse-scroll-cont">
         <div class="mouse"></div>
       </div>
@@ -220,10 +249,10 @@
             <div class="about__content-details">
               <p class="about__content-details-para">
                 I'm a I'm a creative
-                <strong>Front-End Developer</strong> passionate about
-                transforming ideas into seamless digital experiences. My focus
-                is on crafting intuitive websites and web applications, and I’m
-                diving into the exciting world of mobile development.
+                <strong>Front-End Developer</strong>Front-End Developer crafting
+                and transforming ideas into seamless digital experiences. My
+                focus is on crafting intuitive websites and web applications,
+                and I’m diving into the exciting world of mobile development.
               </p>
               <div>
                 <p class="about__content-details-para">
@@ -269,11 +298,13 @@
               <div class="skills__skill">React.js</div>
               <div class="skills__skill">React Native</div>
               <div class="skills__skill">Tailwind CSS</div>
+              <div class="skills__skill">Node.js</div>
+              <div class="skills__skill">Express.js</div>
+              <!-- <div class="skills__skill">Next.js</div> -->
               <div class="skills__skill">Astro.js</div>
               <div class="skills__skill">GIT</div>
               <div class="skills__skill">Firebase</div>
               <div class="skills__skill">Appwrite</div>
-              <div class="skills__skill">Next.js</div>
             </div>
           </div>
         </div>
@@ -290,7 +321,62 @@
         </h2>
 
         <div class="projects__content">
-          <!-- Project 1: Image Left, Content Right -->
+          <!-- Mobile Project: Recyclo -->
+          <div class="project-mobile">
+            <div class="project-mobile-content">
+              <h3 class="project-mobile-title">Recyclo</h3>
+              <p class="project-mobile-desc">
+                <strong>Recyclo</strong> is a mobile app I built to make
+                recycling easy and rewarding. Users can schedule waste pickups,
+                track their recycling habits, and earn rewards. Built using
+                <strong>React Native</strong>, <strong>Expo</strong>, and
+                <strong>Tailwind CSS</strong>, with backend support from
+                <strong>Node.js</strong>, <strong>Express</strong>, and
+                <strong>MongoDB</strong>.
+              </p>
+
+              <div class="project-mobile-images">
+                <img
+                  src="./assets/png/recyclo-admin.png"
+                  alt="Recyclo Admin Screenshot"
+                  class="project-mobile-img"
+                  loading="lazy"
+                />
+                <img
+                  src="./assets/png/recyclo-profile.png"
+                  alt="Recyclo Admin Screenshot"
+                  class="project-mobile-img"
+                  loading="lazy"
+                />
+                <img
+                  src="./assets/png/recyclo.png"
+                  alt="Recyclo App Screenshot"
+                  class="project-mobile-img"
+                  loading="lazy"
+                />
+                <img
+                  src="./assets/png/recyclo-upload.png"
+                  alt="Recyclo Admin Screenshot"
+                  class="project-mobile-img"
+                  loading="lazy"
+                />
+                <img
+                  src="./assets/png/recyclo-accept-pickup.png"
+                  alt="Recyclo Admin Screenshot"
+                  class="project-mobile-img"
+                  loading="lazy"
+                />
+              </div>
+              <a
+                class="btn btn--med btn--theme dynamicBgClr"
+                style="margin-top: 4rem"
+                href="/Recyclo | preview.html"
+                >View Project</a
+              >
+            </div>
+          </div>
+
+          <!-- Web Project 1: Image Left, Content Right -->
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
@@ -318,7 +404,7 @@
             </div>
           </div>
 
-          <!-- Project 2: Content Left, Image Right -->
+          <!-- Web Project 2: Content Left, Image Right -->
           <div class="projects__row projects__row-even">
             <div class="projects__row-content">
               <h3 class="projects__row-content-title">Crystal Fresh Laundry</h3>
@@ -344,7 +430,7 @@
             </div>
           </div>
 
-          <!-- Project 3: Image Left, Content Right -->
+          <!-- Web Project 3: Image Left, Content Right -->
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
@@ -367,33 +453,6 @@
                 href="/MSSNABUAD.html"
                 >View Project</a
               >
-            </div>
-          </div>
-
-          <!-- Project 4: Content Left, Image Right -->
-          <div class="projects__row projects__row-even">
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Quran Hub</h3>
-              <p class="projects__row-content-desc">
-                <strong>Quran Hub</strong> is a web app I developed to provide a
-                seamless and interactive experience for exploring the Quran.
-                Built using <strong>React</strong> and
-                <strong>Tailwind CSS</strong>, it focuses on readability and
-                navigation.
-              </p>
-              <a
-                class="btn btn--med btn--theme dynamicBgClr"
-                href="/QuranHub | preview.html"
-                >View Project</a
-              >
-            </div>
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/png/quranHub.png"
-                alt="Quran Hub Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
             </div>
           </div>
         </div>

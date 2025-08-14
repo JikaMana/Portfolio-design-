@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="shortcut icon"
+      href="/assets/png/userInitial.png"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="/assets/png/userInitial.png" type="image/x-icon" />
+    <title>Project Overview of Recyclo</title>
+    <meta name="description" content="Project Overview of Recyclo Mobile App" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* Extended styles for Recyclo preview images */
+      .project-details__showcase-img-cont {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        margin-bottom: 2rem;
+      }
+
+      .project-details__showcase-img {
+        width: 300px; /* set a consistent width */
+        height: 600px; /* maintain aspect ratio for mobile screenshots */
+        object-fit: cover;
+        border-radius: 0.5rem;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .project-details__showcase-img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+      }
+
+      /* Responsive adjustments */
+      @media (max-width: 768px) {
+        .project-details__showcase-img {
+          width: 200px;
+          height: 400px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .project-details__showcase-img {
+          width: 150px;
+          height: 300px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="/assets/png/userInitial.png"
+              alt="Logo"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Yahaya Abdullahi Mana</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="/" class="header__link">Home</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="/#about" class="header__link">About</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="/#projects" class="header__link">Projects</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="/#contact" class="header__link">Contact</a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link"><a href="/">Home</a></li>
+            <li class="header__sm-menu-link"><a href="#about">About</a></li>
+            <li class="header__sm-menu-link">
+              <a href="#projects">Projects</a>
+            </li>
+            <li class="header__sm-menu-link"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">Recyclo</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            This page contains the case study of <strong>Recyclo</strong> mobile
+            app which includes the Project Overview, Tools Used, and Live Links
+            to the official product.
+          </p>
+        </div>
+        <div class="project-cs-hero__cta">
+          <a href="#" class="btn btn--bg" rel="noreferrer">Live Preview</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Details -->
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <!-- Showcase Images -->
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/png/recyclo.png"
+              alt="Recyclo App Screenshot"
+              class="project-details__showcase-img"
+            />
+            <img
+              src="./assets/png/recyclo-admin.png"
+              alt="Recyclo Admin Screenshot"
+              class="project-details__showcase-img"
+            />
+            <img
+              src="./assets/png/recyclo-profile.png"
+              alt="Recyclo Profile Screenshot"
+              class="project-details__showcase-img"
+            />
+            <img
+              src="./assets/png/recyclo-upload.png"
+              alt="Recyclo Upload Screenshot"
+              class="project-details__showcase-img"
+            />
+            <img
+              src="./assets/png/recyclo-accept-pickup.png"
+              alt="Recyclo Accept Pickup Screenshot"
+              class="project-details__showcase-img"
+            />
+          </div>
+
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h2 class="project-details__content-title">Project Overview</h2>
+              <p class="project-details__desc-para">
+                <strong>Recyclo</strong> is a mobile app I developed to make
+                recycling simple, efficient, and rewarding. Users can schedule
+                waste pickups, track their recycling habits, and earn rewards
+                for participation. This project allowed me to strengthen my
+                mobile development skills and contribute to an eco-friendly
+                solution for communities.
+              </p>
+              <p class="project-details__desc-para">
+                The design focused on a clean, intuitive interface, inspired by
+                similar apps in the recycling and sustainability space, while
+                incorporating smooth animations and usability enhancements for a
+                seamless user experience.
+              </p>
+              <p class="project-details__desc-para">
+                Explore the app by checking the Live Preview below.
+              </p>
+            </div>
+
+            <div class="project-details__tools-used">
+              <h2 class="project-details__content-title">Tools Used</h2>
+              <div class="skills">
+                <div class="skills__skill">React Native</div>
+                <div class="skills__skill">Expo</div>
+                <div class="skills__skill">Tailwind CSS</div>
+                <div class="skills__skill">Node.js</div>
+                <div class="skills__skill">Express</div>
+                <div class="skills__skill">MongoDB</div>
+                <div class="skills__skill">GIT</div>
+                <div class="skills__skill">Github</div>
+              </div>
+            </div>
+
+            <div class="project-details__links">
+              <h2 class="project-details__content-title">See Live</h2>
+              <a
+                href="#"
+                class="btn btn--med btn--theme project-details__links-btn"
+                rel="noreferrer"
+                >Live Preview</a
+              >
+              <a
+                href="/index.html"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                >Go Back</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/abdullahi-mana-yahaya/"
+              >
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="LinkedIn Profile"
+                />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/jikaMana"
+              >
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="Github Profile"
+                />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://x.com/codewithjika"
+              >
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/twitter-ico.png"
+                  alt="Twitter Profile"
+                />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.youtube.com/channel/UCIb8_J9lqtiWGMIOdQ5DVsg"
+              >
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/yt-ico.png"
+                  alt="Youtube Channel"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h2 class="heading heading-sm text-lt">Yahaya Abdullahi Mana</h2>
+            <p class="main-footer__short-desc">
+              A Front-End Developer focused on building responsive and visually
+              engaging websites and web & mobile applications. With a growing
+              passion for mobile development, I aim to create seamless digital
+              experiences that drive success for users and businesses alike.
+            </p>
+          </div>
+        </div>
+
+        <div class="main-footer__lower">
+          Designed by Ram Maheshwari
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          . Made by
+          <a rel="noreferrer" target="_blank" href="https://github.com/jikaMana"
+            >Yahaya Abdullahi Mana</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="./script/sandbox.js"></script>
+  </body>
+</html>
