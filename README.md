@@ -4,7 +4,7 @@ This is my personal portfolio website.
 
 ## About Me
 
-I'm a Front-End Developer who creates responsive and engaging websites.
+I'm a Full-Stack Web & Mobile Developer who creates responsive and engaging websites.
 
 ## Technologies Used
 
